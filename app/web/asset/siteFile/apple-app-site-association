@@ -1,0 +1,11 @@
+{
+  "applinks":{
+    "apps":[],
+    "details":[
+      {
+        "appID":"X3VCJC6GQ4.com.joymo.tech.client",
+        "paths":["/*","/app/*"]
+      }
+    ]
+  }
+}

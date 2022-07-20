@@ -1,0 +1,85 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td,
+header,
+section,
+aside,
+nav,
+menu,
+footer,
+article {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.pr {
+    position: relative;
+    z-index: 2;
+}
+
+.pa {
+    position: absolute;
+    z-index: 1;
+}
+
+.d-flex {
+    display: flex;
+}
+.a-center {
+    align-items: center;
+}
+.j-center {
+    justify-content: center;
+}
+.j-sb {
+    justify-content: space-between;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-1 {
+    flex: 1;
+}
+
+*::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
