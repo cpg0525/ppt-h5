@@ -3,7 +3,7 @@
 import request from 'framework/request';
 import VueI18n from 'vue-i18n';
 import createI18n from 'framework/i18n/site';
-
+import 'ant-design-vue/dist/antd.css';
 export default {
   install(Vue) {
     if (!Vue.prototype.hasOwnProperty('$request')) {

@@ -11,7 +11,7 @@ module.exports = class IndexController extends egg.Controller {
     const query = this.ctx.query;
     try {
       // 获取参与详情
-      const res = {title: '首页'};
+      const res = {title:  this.ctx.__('Email')};
       // const res = await this.ctx.service.api.activityParticiantDetail(query);
       await this.ctx.renderClient('pc/ppt-h5/index.js', {
         seo: {

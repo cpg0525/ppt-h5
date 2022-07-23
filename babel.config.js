@@ -14,6 +14,7 @@ module.exports = {
       ],
       plugins: [
         '@babel/plugin-syntax-dynamic-import',
+        ['import', { 'libraryName': 'ant-design-vue', 'libraryDirectory': 'es', 'style': 'css' }] 
       ],
     },
     web: {
