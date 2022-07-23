@@ -1,14 +1,4 @@
 import Vue from 'vue'
-/**
- * author: zuokun
- * 水印
- * text：水印文字
- * font：字体
- * textColor：文字颜色
- * width：宽度
- * height：高度
- * textRotate：偏转度 -90到0， 负数值，不包含-90
- */
 Vue.directive('watermark',(el,binding)=>{
   let text = binding.value.text;
   let font = binding.value.font || '16px Microsoft JhengHei';
