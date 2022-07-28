@@ -141,6 +141,8 @@ export default {
 <style lang="scss" scoped>
 .home {
   height: 100%;
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
 }
 .header {
   width: 100%;
@@ -171,8 +173,9 @@ export default {
   background: rgb(30, 30, 30);
 }
 .upload {
-  max-width: 70%;
-  margin: 50px auto;
+  margin: auto;
+  grid-column: 1/4;
+  padding: 50px 0;
 }
 .change-btn {
   width: 180px;
@@ -183,6 +186,7 @@ export default {
   height: 100%;
   padding: 40px 10%;
   background: #f7f7f7;
+  grid-column: 1/4;
   .content {
     display: flex;
     width: 50%;
